@@ -1,0 +1,327 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f5f8f9;
+}
+
+.banxin {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+img {
+	vertical-align: top;
+}
+
+ul {
+	list-style: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*头部部分*/
+
+.header {
+	height: 100px;
+	background-color: #fff;
+	line-height: 100px;
+}
+
+.header-l img {
+	vertical-align: middle;
+}
+
+.header-r .icon-set,
+.header-r .icon-notice {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-right: 20px;
+	vertical-align: middle;
+	cursor: pointer;
+	background: url(../img/setting.png) 0 0 no-repeat;
+}
+
+.header-r .icon-notice {
+	margin-right: 40px;
+	background: url(../img/notice.png) 0 0 no-repeat;
+}
+
+.header-r a {
+	display: inline-block;
+	width: 112px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	background-color: red;
+	vertical-align: middle;
+}
+
+/*头部部分*/
+/*主体部分*/
+
+.main {
+	padding-top: 62px;
+}
+
+.main .main-1 {
+	margin-bottom: 52px;
+}
+
+.main .main-1-l h5 {
+	font-size: 28px;
+	font-weight: normal;
+}
+
+.main-1-l p {
+	font-size: 16px;
+	color: #b2b5b6;
+}
+
+.main-1-r {
+	margin-top: 30px;
+}
+
+.main-1-r li {
+	float: left;
+	margin-left: 25px;
+}
+
+.main-1-r li a {
+	font-family: "微软雅黑";
+	font-weight: 700;
+	color: #000000;
+	display: block;
+	padding-bottom: 7px;
+}
+
+.main-1-r li a.sel {
+	border-bottom: 1px solid #cccfd0;
+}
+
+.main-2 {
+	display: flex;
+	height: 288px;
+}
+
+.main-2-l {
+	background: #fff;
+	flex: 1;
+	margin-right: 20px;
+	padding: 10px;
+}
+
+.main-2-l .lunbo {
+	height: 100%;
+	position: relative;
+}
+
+.lunbo .previous,
+.lunbo .next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: arial;
+	font-size: 20px;
+	width: 26px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	background: #000;
+	color: #fff;
+}
+
+.lunbo .previous {
+	left: 10px;
+}
+
+.lunbo .next {
+	right: 10px;
+}
+
+.lunbo .lunbo-list {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 12px;
+	font-size: 0;
+}
+
+.lunbo .lunbo-list .lunbo-item {
+	display: inline-block;
+	width: 8px;
+	height: 10px;
+	background: #c1c3c5;
+}
+
+.lunbo .lunbo-list .lunbo-item.sel {
+	height: 14px;
+	background: #fff;
+}
+
+.lunbo .lunbo-list .lunbo-item:not(:last-child) {
+	margin-right: 8px;
+}
+
+.main-2-l img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.main-2-r {
+	background: #fff;
+	flex: 1;
+}
+
+.main-2-r-t {
+	padding: 0 48px;
+	height: 100px;
+	border-bottom: 1px solid #efeff0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-2-r-t a {
+	height: 40px;
+	padding: 0 22px;
+	line-height: 40px;
+	color: #b2b5b6;
+	border: 1px solid #e9e9ea;
+}
+
+.main-2-r-b {
+	padding: 28px 48px;
+	color: #676a6b;
+}
+
+.main-2-r-b .tab-head {
+	margin-bottom: 30px;
+}
+
+.main-2-r-b .tab-content .tab-list {
+	margin-bottom: 20px;
+}
+
+.main-2-r-b .tab-head .tab-list {
+	font-weight: 700;
+}
+
+.main-2-r-b .tab-list {
+	display: flex;
+	align-items: center;
+}
+
+.tab-list .tab-list-time {
+	flex: 1;
+}
+
+.tab-list .tab-list-name {
+	flex: 3;
+}
+
+.tab-list .tab-list-status {
+	flex: 1;
+	text-align: right;
+}
+
+.tab-list .tab-list-status a {
+	display: inline-block;
+	padding: 0 12px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	border-radius: 5px;
+	background: #5dd054;
+}
+
+.main-3 {
+	margin-top: 20px;
+	padding: 30px 0;
+	height: 300px;
+	background: #fff;
+}
+
+.main-4 {
+	display: flex;
+	margin-top: 20px;
+	height: 288px;
+}
+
+.main-4-l {
+	padding: 30px 0 20px;
+	flex: 1;
+	margin-right: 20px;
+	background: #fff;
+}
+
+.main-4-r {
+	padding: 30px 0 10px;
+	flex: 1;
+	background: #fff;
+}
+
+/*主体部分*/
+/*尾部部分*/
+
+.footer {
+	margin-top: 50px;
+	background-color: #202124;
+	padding: 80px 0;
+}
+
+.footer dl {
+	float: left;
+	width: 180px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.footer dl:last-child {
+	float: left;
+}
+
+.footer img {
+	float: left;
+	margin-right: 100px;
+}
+
+.footer dl dt,
+.footer dl dd {
+	height: 30px;
+}
+
+/*尾部部分*/
